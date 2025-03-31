@@ -6,7 +6,7 @@ export const Card = ({ data }) => {
     return (
         <article className="card">
             <header className="card__header">
-                <img className="card__img" src={data.img} alt={`${data.name} image`} />
+                <img className="card__img" loading="lazy" src={data.img} alt={`${data.name} image`} />
             </header>
             <div className="card__content">
                 <h3 className="card__title">{data.name}</h3>
