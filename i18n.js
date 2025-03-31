@@ -7,15 +7,25 @@ const resources = {
       about: "Hi! I'm Facundo Córdoba",
       profession: "Front-End Developer",
       view: "Explore my work",
+      see: "View Project",
+      contact: "Contact Me",
+      tContact: "Get In Touch",
+      formName: "Your name",
+      formEmail: "Your email",
+      formMsg: "Message",
+      formBtn: "Send",
 
       //--
-			pcD1: "Responsive and optimized. SEO implemented. Includes filtering of the medical directory by query.",
+			project1: "Created a responsive website from scratch for a healthcare system. Performed maintenance tasks to manage news, medical records, and a virtual bot.",
 
 			//--
-			pcD2: "A visual refactor of the main index was done. New sections were added. The navbar and footer were fully refactored.",
+			project2: "The home page has been visually refactored. New sections have been added. The navigation bar and footer have been completely refactored.",
 
 			//--
-			pcD3: "Created for a coffee shop in my city. Responsive design, optimization, and SEO were implemented.",
+			project3: "Created for a coffee shop in my city. Responsive design, optimization, and SEO were implemented.",
+
+      //--
+      project4: "Creation of a digital library for the Global Penguin Society. Responsive and SEO-optimized."
     },
   },
   es: {
@@ -23,14 +33,26 @@ const resources = {
       about: "Hola! Soy Facundo Córdoba",
       profession: "Desarrollador Front-End",
       view: "Explora mis trabajos",
+      see: "Ver Proyecto",
+      contact: "Contacto",
+      tContact: "Conecta Conmigo",
+      formName: "Nombre",
+      formEmail: "Email",
+      formMsg: "Mensaje",
+      formBtn: "Enviar",
+
       //--
-			pcD1:"Responsive y optimizada. Tiene realizado SEO. Incluye filtrado de cartilla médica por query.",
+			project1:"Creación de un sitio web responsive desde cero para un sistema de salud. Realización de tareas de mantenimiento para gestionar noticias, historiales médicos y un bot virtual. ",
 
 			//--
-			pcD2:"Se hizo un refactor visual del index principal. Adición de nuevas secciones. Refactor del navbar y footer por completo.",
+			project2:"Se hizo un refactor visual de la página principal. Adición de nuevas secciones. Refactor del navbar y footer por completo.",
 
 			//--
-			pcD3:"Dirigida a una cafetería de mi ciudad. Desde cero. Se le realizo el responsive, optimización y SEO. ",
+			project3:"Dirigida a una cafetería de mi ciudad. Desde cero. Se le realizo el responsive, optimización y SEO. ",
+
+      //--
+      project4: "Creación de biblioteca digital para Global Penguin Society. Responsive, SEO y optimizada. ",
+
     },
   },
 };
