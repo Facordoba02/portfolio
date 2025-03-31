@@ -57,6 +57,9 @@ const Form = () => {
             <input className="form__input" type="email" name="email" placeholder={t("formEmail")} value={formData.email} onChange={handleChange} required />
             <textarea className="form__msg" name="message" placeholder={t("formMsg")} value={formData.message} onChange={handleChange} required></textarea>
             <button className="form__btn" type="submit">{t("formBtn")}</button>
+            <p className="form__text">
+            This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.
+            </p>
             {error && <p style={{ color: "red" }}>{error}</p>}
             {success && <p style={{ color: "green" }}>{success}</p>}
         </form>

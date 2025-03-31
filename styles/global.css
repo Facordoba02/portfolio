@@ -1,7 +1,11 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+.grecaptcha-badge {
+  visibility: hidden;
 }
 
 :root {
@@ -18,11 +22,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-html{
+html {
   scroll-behavior: smooth;
 }
 
-.grecaptcha-badge{
+.grecaptcha-badge {
   display: none !important;
 }
