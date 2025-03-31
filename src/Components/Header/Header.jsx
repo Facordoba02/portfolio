@@ -7,7 +7,7 @@ import { FaFilePdf } from "react-icons/fa6";
 
 export const Header = () => {
   const { t } = useTranslation();
-  const [lang, setLang] = useState();
+  const [lang, setLang] = useState("es");
 
   const changeLanguage = (lng) => {
     setLang(lng)
@@ -28,13 +28,13 @@ export const Header = () => {
                 <a className="header__button" onClick={() => changeLanguage("en")}>
                   <span>
                     <GrLanguage />
-                  </span> English
+                  </span> ENG
                 </a>
               ) : (
                 <a className="header__button" onClick={() => changeLanguage("es")}>
                   <span>
                     <GrLanguage />
-                  </span> Español
+                  </span> ESP
                 </a>
               )
             }
@@ -44,16 +44,16 @@ export const Header = () => {
       <section className="header__container">
         <div className="header__about">
           <div className="header__img">
-            {/* <img src="./3.jpeg" alt="" /> */}
+            <img src="./me.webp" alt="my image" />
           </div>
           <div className="header__desc">
             <p className="header__subtitle">{t("about")}</p>
             <h1 className="header__title">{t("profession")}</h1>
             {
               lang === "es" ? (
-                <a href="" className="header__download">Descargar CV <FaFilePdf /></a>
+                <a href="./docs/curriculum.pdf" target="_blank" className="header__download">Descargar CV <FaFilePdf /></a>
               ) : (
-                <a href="" className="header__download">Resume <FaFilePdf /></a>
+                <a href="./docs/resume.pdf" target="_blank" className="header__download">Resume <FaFilePdf /></a>
               )
             }
           </div>

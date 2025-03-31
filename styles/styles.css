@@ -67,8 +67,9 @@
   gap: 6px;
   width: fit-content;
   color: #fff;
-  font-weight: 500;
+  font-weight: 600;
   margin-top: 8px;
+  letter-spacing: 0.5px;
 }
 .header__button {
   display: flex;
@@ -129,6 +130,7 @@
 .header__img {
   width: 200px;
   height: 200px;
+  border-radius: 10px;
   overflow: hidden;
 }
 .header__img img {
@@ -138,14 +140,20 @@
 
 /* FOOTER */
 .footer {
-  height: 100vh;
   display: flex;
   flex-direction: column;
 }
 .footer__copy {
   text-align: center;
-  padding: 60px 0px 30px 0px;
-  flex: 1;
+  padding: 60px 0px 0px 0px;
+}
+.footer__link {
+  color: #fff;
+  border-top: 1px solid #fff;
+  width: 100%;
+  text-decoration: none;
+  display: inline-block;
+  padding: 16px 0px;
 }
 
 .contact {
@@ -160,39 +168,45 @@
   justify-content: center;
   align-items: center;
   flex: 1;
+  margin-top: 40px;
 }
 .contact__bg {
-  background-color: #6c90fa;
-  width: 80%;
+  background-color: #5779E0;
+  width: 600px;
   height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 15px;
 }
 .contact__content {
   background-color: #1f2537;
   height: 350px;
-  width: 70%;
+  width: 400px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  padding: 16px;
+  border-radius: 15px;
 }
 .contact__about {
   flex: 1;
 }
 .contact__list {
   display: flex;
+  justify-content: center;
   align-items: flex-start;
-  justify-content: space-around;
-  height: 100%;
-  flex-direction: column;
+  flex-direction: row;
   list-style: none;
-  padding: 16px;
+  gap: 16px;
 }
 .contact__item {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
+  color: #86a4ff;
+  cursor: pointer;
+}
+.contact__item:hover {
+  transition: all 300ms ease-in-out;
+  color: #fff;
 }
 
 .form {
@@ -201,26 +215,30 @@
   align-items: center;
   flex-flow: column wrap;
   height: 100%;
-  padding: 16px;
   gap: 16px;
-  flex: 1;
 }
 .form__input, .form__msg, .form__btn {
   padding: 8px;
   width: 100%;
   border: 1px solid #6c90fa;
   background-color: #1f1f1f;
+  border-radius: 5px;
 }
 .form__input:focus, .form__msg:focus, .form__btn:focus {
   outline: none;
 }
 .form__msg {
-  flex: 0.5;
+  flex: 0.6;
+  resize: none;
 }
 .form__btn {
-  width: fit-content;
   padding: 8px 16px;
   cursor: pointer;
+  text-transform: uppercase;
+}
+.form__btn:hover {
+  transition: all 300ms ease-in-out;
+  background-color: #353535;
 }
 
 /* CARD */

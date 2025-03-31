@@ -13,7 +13,7 @@ const resources = {
       formName: "Your name",
       formEmail: "Your email",
       formMsg: "Message",
-      formBtn: "Send",
+      formBtn: "Submit",
 
       //--
 			project1: "Created a responsive website from scratch for a healthcare system. Performed maintenance tasks to manage news, medical records, and a virtual bot.",
