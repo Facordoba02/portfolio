@@ -187,6 +187,7 @@
 .footer{
   display: flex;
   flex-direction: column;
+  height: 70vh;
 
   &__copy{
     text-align: center;
@@ -210,7 +211,7 @@
   align-items: center;
   flex: 4;
   @media (max-width:1280px) {
-    min-height: 90vh;
+    // min-height: 90vh;
     justify-content: flex-end;
   }
   @media screen and (max-width:800px) {
@@ -222,7 +223,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
     margin-top: 40px;
     @media (max-width:1280px) {
       flex: none;
