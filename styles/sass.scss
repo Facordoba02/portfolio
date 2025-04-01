@@ -3,17 +3,17 @@
   max-width: 1280px;
   margin: 0 auto;
 
-  @media (max-width:1280px) {
+  @media (max-width: 1280px) {
     width: 100%;
   }
 }
 
 /*GENERAL*/
-.subtitle{
+.subtitle {
   display: flex;
   justify-content: center;
   align-items: center;
-  &__exc{
+  &__exc {
     color: #6791ff;
   }
 }
@@ -21,7 +21,7 @@
 .header {
   height: 100vh;
   padding-bottom: 32px;
-  @media screen and (max-width:800px) {
+  @media screen and (max-width: 800px) {
     height: 95vh;
   }
 
@@ -49,8 +49,8 @@
       max-width: 1280px;
       width: 100%;
       height: 100%;
-      @media (max-width:1280px) {
-        padding:  8px;
+      @media (max-width: 1280px) {
+        padding: 8px;
       }
     }
 
@@ -72,7 +72,7 @@
 
   &__download {
     text-decoration: none;
-    background-color: #5779E0;
+    background-color: #5779e0;
     border-radius: 4px;
     box-shadow: 0px 0px 4px -1px #6c90fa;
     padding: 6px 12px;
@@ -94,7 +94,7 @@
     border: none;
     cursor: pointer;
 
-    span{
+    span {
       width: fit-content;
       height: fit-content;
       display: flex;
@@ -106,14 +106,14 @@
   &__title {
     font-size: 2rem;
     color: #6791ff;
-    @media screen and (max-width:800px) {
+    @media screen and (max-width: 800px) {
       font-size: 1.5rem;
     }
   }
 
   &__subtitle {
     font-size: 1.5rem;
-    @media screen and (max-width:800px) {
+    @media screen and (max-width: 800px) {
       font-size: 1rem;
     }
   }
@@ -133,14 +133,14 @@
     gap: 16px;
     margin-top: 50px;
     flex: 4;
-    @media screen and (max-width:800px) {
+    @media screen and (max-width: 800px) {
       flex-direction: column;
       margin-top: 0px;
     }
   }
 
-  &__desc{
-    @media screen and (max-width:800px) {
+  &__desc {
+    @media screen and (max-width: 800px) {
       display: flex;
       flex-flow: column wrap;
       align-items: center;
@@ -184,18 +184,17 @@
 }
 
 /* FOOTER */
-.footer{
+.footer {
   display: flex;
   flex-direction: column;
   height: 70vh;
 
-  &__copy{
+  &__copy {
     text-align: center;
     padding: 60px 0px 0px 0px;
-
   }
-  
-  &__link{
+
+  &__link {
     color: #fff;
     border-top: 1px solid #fff;
     width: 100%;
@@ -205,46 +204,46 @@
   }
 }
 
-.contact{
+.contact {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
   flex: 4;
-  @media (max-width:1280px) {
+  @media (max-width: 1280px) {
     // min-height: 90vh;
     justify-content: flex-end;
   }
-  @media screen and (max-width:800px) {
+  @media screen and (max-width: 800px) {
     min-height: 50vh;
   }
 
-  &__wrapper{
+  &__wrapper {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 40px;
-    @media (max-width:1280px) {
+    @media (max-width: 1280px) {
       flex: none;
     }
   }
 
-  &__bg{
-    background-color: #5779E0;
+  &__bg {
+    background-color: #5779e0;
     width: 600px;
     height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-    @media screen and (max-width:800px) {
+    @media screen and (max-width: 800px) {
       width: 100%;
       background-color: transparent;
       padding: 0px 8px;
     }
   }
 
-  &__content{
+  &__content {
     background-color: #1f2537;
     height: 350px;
     width: 400px;
@@ -254,11 +253,11 @@
     border-radius: 15px;
   }
 
-  &__about{
+  &__about {
     flex: 1;
   }
 
-  &__list{    
+  &__list {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -267,20 +266,19 @@
     gap: 16px;
   }
 
-  &__item{
+  &__item {
     font-size: 1.5rem;
     color: #86a4ff;
     cursor: pointer;
 
-    &:hover{
+    &:hover {
       transition: all 300ms ease-in-out;
       color: #fff;
     }
   }
-
 }
 
-.form{
+.form {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -290,44 +288,42 @@
 
   &__input,
   &__msg,
-  &__btn{
+  &__btn {
     padding: 8px;
     width: 100%;
     border: 1px solid #6c90fa;
     background-color: #1f1f1f;
     border-radius: 5px;
 
-    &:focus{
+    &:focus {
       outline: none;
     }
   }
 
-  &__msg{
-    flex: .6;
+  &__msg {
+    flex: 0.6;
     resize: none;
   }
 
-  &__btn{
+  &__btn {
     padding: 8px 16px;
     cursor: pointer;
     text-transform: uppercase;
 
-    &:hover{
+    &:hover {
       transition: all 300ms ease-in-out;
       background-color: #353535;
     }
   }
 
-  &__text{
-    font-size: .6rem;
+  &__text {
+    font-size: 0.6rem;
     text-align: center;
-    a{
+    a {
       text-decoration: none;
     }
   }
-
 }
-
 
 /* CARD */
 
@@ -336,11 +332,9 @@
   display: flex;
   align-items: center;
 
-  @media (max-width:1280px) {
-    padding:  8px;
-
+  @media (max-width: 1280px) {
+    padding: 8px;
   }
-
 
   &__cards {
     display: flex;
@@ -349,7 +343,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    @media (max-width:1280px) {
+    @media (max-width: 1280px) {
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
@@ -357,13 +351,15 @@
       gap: 8px;
       min-height: 100vh;
     }
-    @media screen and (max-width:800px) {
+    @media screen and (max-width: 800px) {
       grid-template-columns: 1fr;
     }
+
+    @media (min-width: 1400px) {
+      height: 100vh;
+    }
   }
-
 }
-
 
 .card {
   display: flex;
@@ -375,11 +371,11 @@
   border-radius: 20px;
   gap: 8px;
   border: 1px solid #1f1f1f;
-  @media (max-width:1280px) {
+  @media (max-width: 1280px) {
     width: 95%;
     height: 492px;
   }
-  @media screen and (max-width:800px) {
+  @media screen and (max-width: 800px) {
     height: auto;
   }
 
@@ -391,7 +387,6 @@
   &__title {
     font-size: 1.1rem;
   }
-
 
   &__img {
     width: 100%;
@@ -436,6 +431,4 @@
       color: #6791ff;
     }
   }
-
-
 }

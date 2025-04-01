@@ -73,7 +73,7 @@
 }
 .header__download {
   text-decoration: none;
-  background-color: #5779E0;
+  background-color: #5779e0;
   border-radius: 4px;
   box-shadow: 0px 0px 4px -1px #6c90fa;
   padding: 6px 12px;
@@ -225,7 +225,7 @@
   }
 }
 .contact__bg {
-  background-color: #5779E0;
+  background-color: #5779e0;
   width: 600px;
   height: 300px;
   display: flex;
@@ -341,6 +341,11 @@
 @media screen and (max-width: 800px) {
   .main__cards {
     grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 1400px) {
+  .main__cards {
+    height: 100vh;
   }
 }
 
