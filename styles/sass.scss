@@ -21,6 +21,9 @@
 .header {
   height: 100vh;
   padding-bottom: 32px;
+  @media screen and (max-width:800px) {
+    height: 95vh;
+  }
 
   &__logo {
     width: fit-content;
@@ -132,6 +135,7 @@
     flex: 4;
     @media screen and (max-width:800px) {
       flex-direction: column;
+      margin-top: 0px;
     }
   }
 
@@ -208,6 +212,9 @@
   @media (max-width:1280px) {
     min-height: 90vh;
     justify-content: flex-end;
+  }
+  @media screen and (max-width:800px) {
+    min-height: 50vh;
   }
 
   &__wrapper{
