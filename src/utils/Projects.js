@@ -4,28 +4,28 @@ const projects = [
         img: "./gps.webp",
         langs: ["Html", "Css", "Javascript"],
         link: "https://www.globalpenguinsociety.org/",
-        desc: "project1"
+        desc: "project2"
     },
     {
         name: "Library",
         img: "./gpslibrary.webp",
         langs: ["React", "Css"],
         link: "https://gpsociety.github.io/library/",
-        desc: "project2"
+        desc: "project4"
     },
     {
         name: "Osrja",
         img: "./osrja.webp",
         langs: ["React", "Next.js", "TailwindCSS", "Typescript"],
         link: "https://osrja.org.ar/",
-        desc: "project3"
+        desc: "project1"
     },
     {
         name: "Buen Comienzo",
         img: "./buencomienzo.webp",
         langs: ["Html", "TailwindCSS", "Javascript"],
         link: "https://buencomienzo.netlify.app/",
-        desc: "project4"
+        desc: "project3"
     }
 ]
 
